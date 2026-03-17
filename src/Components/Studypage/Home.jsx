@@ -6,7 +6,7 @@ function Home() {
 
         <div className=" max-w-3xl mb-15 text-center md:text-left ">
 
-          <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full ">•FINTECH SUCCESS STORY </span>
+          <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full ">FINTECH SUCCESS STORY </span>
 
 
 

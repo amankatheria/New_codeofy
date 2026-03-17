@@ -28,18 +28,22 @@ function Positions() {
     <section className="bg-gradient-to-br from-blue-80 to-blue-100  py-2 px-1 ">
       {/* <div className="bg-gradient-to-br from-blue-90 to-blue-100  py-2 px-1"> */}
 
-
       <div className=" mb-9 py-2 px-5 ">
         <h2 className="text-3xl font-bold text-black text-left ">
           Open Positions
         </h2>
-        <p className="text-gray-500 mt-2 text-left">
-          Join our engineering, design and product teams.
-        </p>
-</div>
-      
+        <div className="flex justify-between items-center md:text-center ">
+          <p className="text-gray-500 mt-2 text-left">
+            Join our engineering, design and product teams.
+          </p>
 
 
+          <button className="text-sm font-bold text-blue-700 md:text-sm px-5 py-2  hover:underline ">
+            View all
+          </button>
+
+        </div>
+      </div>
       <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto px-5 mb-14 ">
 
         {jobs.map((job, index) => (

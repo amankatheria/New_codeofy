@@ -1,6 +1,6 @@
 import React from "react";
 function Hiring() {
- 
+
   const steps = [
     {
       id: 1,

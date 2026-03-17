@@ -7,7 +7,7 @@ function Home() {
 
                     <div className=" max-w-3xl mb-15 ">
 
-                        <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full">• WE HIRING GLOBALLY</span>
+                        <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full">WE HIRING GLOBALLY</span>
 
                         <h1 className="text-2xl md:text-4xl font-bold mt-6 text-black"> Join the future of <span className="text-blue-500">Ai <br />Delevopment</span>
                         </h1>
