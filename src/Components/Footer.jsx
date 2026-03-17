@@ -23,7 +23,7 @@ function Footer() {
 
 
                     <div>
-                        <h3 className="font-semibold mb-4">Services</h3>
+                        <h3 className="font-semibold mb-4 text-black">Services</h3>
                         <ul className="space-y-2 text-sm">
                             <li>Web Development</li>
                             <li>Mobile Engineering</li>
@@ -34,7 +34,7 @@ function Footer() {
 
 
                     <div>
-                        <h3 className="font-semibold mb-4">Company</h3>
+                        <h3 className="font-semibold mb-4 text-black ">Company</h3>
                         <ul className="space-y-2 text-sm">
                             <li> Home</li>
                             <li> Community</li>
@@ -45,7 +45,7 @@ function Footer() {
 
 
                     <div>
-                        <h3 className="font-semibold mb-4">Contact</h3>
+                        <h3 className="font-semibold mb-4 text-black">Contact</h3>
                         <ul className="space-y-3 text-sm">
                             <li className="flex items-center gap-2">
                                 <Mail size={16} /> hello@codeofy.com
@@ -62,7 +62,7 @@ function Footer() {
 
 
                 <div className="border-t mt-10 pt-4 flex flex-col md:flex-row justify-between text-sm">
-                    <p>© 2024 Codeofy. All rights reserved.</p>
+                    <p> 2026 Codeofy. All rights reserved.</p>
                     <div className="flex gap-4 mt-2 md:mt-0">
                         <span className="cursor-pointer">Privacy Policy</span>
                         <span className="cursor-pointer">Terms of Service</span>
