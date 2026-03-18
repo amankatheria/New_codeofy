@@ -1,7 +1,7 @@
 import React from "react";
 function Home() {
   return (
-    <section className="text-white  bg-gradient-to-br from-white to-blue-700 ">
+    <section className="text-white  bg-gradient-to-br from-white to-blue-300 ">
       <div className=" max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center py-8 px-6" >
 
         <div className=" max-w-3xl mb-15 text-center md:text-left ">
