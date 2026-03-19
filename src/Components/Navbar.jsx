@@ -68,7 +68,7 @@ function Navbar() {
 
         <div className="hidden md:flex space-x-4">
 
-          <button onClick={() => navigate("")}
+          <button 
             
             
             className="border border-black px-5 py-2 rounded-lg hover:bg-blue-700 hover:text-white transition"

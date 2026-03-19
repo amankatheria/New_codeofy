@@ -7,22 +7,24 @@ import Body from './Components/Body.jsx'
 import Community from './Components/Community.jsx'
 import Study from './Components/Study.jsx'
 import Blog from'./Components/Blog.jsx'
-import Login from"./Components/Login.jsx"
+import Login from './Components/Login.jsx'
+
 function App() {
 
     const router=createBrowserRouter(
       createRoutesFromElements(
 
-        
         <Route path='/' element={<Layout/>}>
         <Route path='/' element={<Career/>}/>
         <Route path='/Body' element={<Body/>}/>
         <Route path='/Blog' element={<Blog/>}/>
         <Route path='/Study' element={<Study/>}/>
         <Route path='/Community' element={<Community/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
-       
-                
+        <Route path='/Contact' element={<Contact/>}>
+        </Route>
+        <Route path='/Login' element={<Login/>}/>
+
+            
         </Route>
         
                 
@@ -48,6 +50,8 @@ function App() {
 
 
       {/* </div> */}
+
+      
 
 
  

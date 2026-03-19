@@ -34,7 +34,7 @@ return (
                 className="w-full p-3 border rounded-lg mb-4 capitalize"
             />
            <button onClick={()=>setshowpassword(!showpassword)} className="absolute right-3 top-3 text-gray-500">
-              {showpassword ? "Hide" : <Eye size={20} />}
+              {showpassword ? "Hide" : <Eye size={21} />}
 
             </button>
         
