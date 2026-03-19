@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import Card from "./Card";
+import { useState } from "react";
+import {Eye } from "lucide-react";
+
 function Login() {
+    const [showpassword, setshowpassword] = useState(false)
     const icon = [
         {
         logo: "https://img.freepik.com/premium-vector/google-logo-icon-transparent-background_1273375-1570.jpg?semt=ais_rp_progressive&w=740&q=80",
@@ -14,7 +16,7 @@ function Login() {
     ]
 return (
 
-    <div className="flex w-full  md:w-1/2 items-center justify-center bg-gray-100">
+    <div className="flex w-full md:w-1/2 items-center justify-center bg-gray-100">
         <div className=" w-full max-w-md p-8">
             <h1 className=" text-3xl text-black font-bold uppercase">welcome to codeofy</h1>
 
@@ -25,12 +27,18 @@ return (
                 placeholder="email your username"
                 className="w-full p-3 border rounded-lg mb-4 capitalize"
             />
-
+         <div className=" relative">
             <input
-                type="text"
+                type={showpassword ? "text":"password"}
                 placeholder=" password"
                 className="w-full p-3 border rounded-lg mb-4 capitalize"
             />
+           <button onClick={()=>setshowpassword(!showpassword)} className="absolute right-3 top-3 text-gray-500">
+              {showpassword ? "Hide" : <Eye size={20} />}
+
+            </button>
+        
+            </div>
 
             <div className=" flex items-center justify-between mb-4">
                 <label className="text-sm font-sans ">
@@ -70,10 +78,6 @@ return (
             </p>
         </div>
     </div>
-
-
-
-
 
 )
 }
