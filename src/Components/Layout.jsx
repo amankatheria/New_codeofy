@@ -10,7 +10,6 @@ function Layout(){
       <Navbar/>
       <Outlet/>
       <Header/>
-      <Login/>
       </div>
       </>
     )

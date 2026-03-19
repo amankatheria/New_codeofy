@@ -8,30 +8,30 @@ import Community from './Components/Community.jsx'
 import Study from './Components/Study.jsx'
 import Blog from'./Components/Blog.jsx'
 import Login from './Components/Login.jsx'
+import Signin from './Components/Signinpage/Signin.jsx'
+
 
 function App() {
 
-    const router=createBrowserRouter(
-      createRoutesFromElements(
+    // const router=createBrowserRouter(
+    //   createRoutesFromElements(
 
-        <Route path='/' element={<Layout/>}>
-        <Route path='/' element={<Career/>}/>
-        <Route path='/Body' element={<Body/>}/>
-        <Route path='/Blog' element={<Blog/>}/>
-        <Route path='/Study' element={<Study/>}/>
-        <Route path='/Community' element={<Community/>}/>
-        <Route path='/Contact' element={<Contact/>}>
-        </Route>
-        <Route path='/Login' element={<Login/>}/>
-
-            
-        </Route>
+    //     <Route path='/' element={<Layout/>}>
+    //     <Route path='/' element={<Career/>}/>
+    //     <Route path='/Body' element={<Body/>}/>
+    //     <Route path='/Blog' element={<Blog/>}/>
+    //     <Route path='/Study' element={<Study/>}/>
+    //     <Route path='/Community' element={<Community/>}/>
+    //     <Route path='/Contact' element={<Contact/>}>
+    //     </Route>
+           
+    //     </Route>
         
                 
           
-      )
+    //   )
       
-    )
+    // )
   return (
     <>
 
@@ -53,12 +53,12 @@ function App() {
 
       
 
-
+ <Signin/>
  
 
 
 
-      <RouterProvider router={router}/>
+      {/* <RouterProvider router={router}/> */}
     </>
   )
 }
