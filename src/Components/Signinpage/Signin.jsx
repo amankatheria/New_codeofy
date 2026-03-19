@@ -19,7 +19,6 @@ function Signin(){
                 className="w-full p-3 border rounded-lg mb-4 capitalize"
             />
 
-
              <input
                 type="text"
                 placeholder="enter your enail"
@@ -58,7 +57,7 @@ function Signin(){
             </button>
 
           
-            <button className=" text-center text-sm mt-6 capitalize hover:text-blue-700 mr-6"> create a new account ?
+            <button className=" text-center text-sm mt-6 capitalize hover:text-blue-700  pl-8"> create a new account ?
                 <span className="text-blue-600 ml-1 capitalize hover:text-black"> Login up for free</span>
             </button>
         </div>
