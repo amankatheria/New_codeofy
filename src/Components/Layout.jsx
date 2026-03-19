@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import Header from "./Footer";
 import { Outlet } from "react-router-dom";
+import Login from "./Login";
 function Layout(){
     return(
       <>
@@ -9,6 +10,7 @@ function Layout(){
       <Navbar/>
       <Outlet/>
       <Header/>
+      <Login/>
       </div>
       </>
     )

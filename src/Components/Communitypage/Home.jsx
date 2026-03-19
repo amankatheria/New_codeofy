@@ -7,7 +7,7 @@ function Home() {
       <section className="text-white  bg-gray-100">
         <div className=" max-w-7xl mx-auto grid md:grid-cols-2 gap-10 items-center py-10 px-8" >
           <div className=" text-center md:text-left">
-            <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full mb-1.5">👥 Over 50,000 members</span>
+            <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full mb-1.5 uppercase">👥 Over 50,000 members</span>
            
             <h1 className="text-3xl font-bold mb-4 text-black text-center md:text-left md:text-5xl">
               The Codeofy <br /> Community

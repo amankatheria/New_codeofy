@@ -7,10 +7,13 @@ import Body from './Components/Body.jsx'
 import Community from './Components/Community.jsx'
 import Study from './Components/Study.jsx'
 import Blog from'./Components/Blog.jsx'
+import Login from"./Components/Login.jsx"
 function App() {
 
     const router=createBrowserRouter(
       createRoutesFromElements(
+
+        
         <Route path='/' element={<Layout/>}>
         <Route path='/' element={<Career/>}/>
         <Route path='/Body' element={<Body/>}/>
@@ -18,9 +21,14 @@ function App() {
         <Route path='/Study' element={<Study/>}/>
         <Route path='/Community' element={<Community/>}/>
         <Route path='/Contact' element={<Contact/>}/>
-
+       
+                
         </Route>
+        
+                
+          
       )
+      
     )
   return (
     <>
@@ -40,6 +48,9 @@ function App() {
 
 
       {/* </div> */}
+
+
+ 
 
 
 

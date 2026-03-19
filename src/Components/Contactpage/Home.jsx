@@ -7,7 +7,7 @@ function Home() {
 
                     <div className=" max-w-3xl mb-15 ">
 
-                        <span className="px-4 py-1 text-sm bg-blue-100 text-blue-600 rounded-full">Contact Support</span>
+                        <span className="px-4 py-1 text-sm bg-blue-200 text-blue-600 rounded-full uppercase">Contact Support</span>
 
                         <h1 className="text-2xl md:text-5xl font-bold mt-6 text-black"> Get in Touch
                         </h1>

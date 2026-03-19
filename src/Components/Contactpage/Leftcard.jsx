@@ -7,9 +7,9 @@ function Leftcard() {
 
     <div>
 
-      <div className="w-full bg-gray-100">
+      <div className="w-full bg-gray-100 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="  bg-white rounded-3xl shadow-lg p-6 -mt-7 ">
+          <div className="  bg-white rounded-3xl shadow-lg p-6 -mt-7">
 
             <h2 className="text-2xl font-semibold mb-6">
               Send us a message
@@ -22,7 +22,7 @@ function Leftcard() {
                   <label className="text-sm text-gray-600">First Name</label>
                   <input
                     type="text"
-                    placeholder="John"
+                    placeholder="Name"
                     className="w-full mt-1 border rounded-lg p-3"
                   />
                 </div>
@@ -31,7 +31,7 @@ function Leftcard() {
                   <label className="text-sm text-gray-600">Last Name</label>
                   <input
                     type="text"
-                    placeholder="Doe"
+                    placeholder="Last name"
                     className="w-full mt-1 border rounded-lg p-3"
                   />
                 </div>
@@ -63,7 +63,7 @@ function Leftcard() {
 
             </form>
           </div>
-          <div className=" rounded-3xl shadow-lg p-9 -mt-9">
+          <div className=" rounded-3xl shadow-lg p-9 -mt-9 backdrop-blur-2xl">
             <Rightcard />
           </div>
 

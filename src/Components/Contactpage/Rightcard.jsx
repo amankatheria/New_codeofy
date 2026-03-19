@@ -4,7 +4,7 @@ import { MapPin, Mail } from "lucide-react";
 function Rightcard() {
   return (
     <>
-      <div className="space-y-8 rounded-3xl -mt-7 ">
+      <div className="space-y-8 rounded-3xl -mt-7">
             
             <div>
               <h3 className="text-xl font-semibold mb-4">

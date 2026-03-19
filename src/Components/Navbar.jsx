@@ -3,6 +3,7 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
 
   const navigate = useNavigate();
@@ -67,11 +68,13 @@ function Navbar() {
 
         <div className="hidden md:flex space-x-4">
 
-          <button
-            onClick={() => navigate("")}
+          <button onClick={() => navigate("")}
+            
+            
             className="border border-black px-5 py-2 rounded-lg hover:bg-blue-700 hover:text-white transition"
           >
             Log In
+           
           </button>
 
           <button
