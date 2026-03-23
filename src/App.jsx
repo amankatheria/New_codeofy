@@ -13,25 +13,26 @@ import Signin from './Components/Signinpage/Signin.jsx'
 
 function App() {
 
-    // const router=createBrowserRouter(
-    //   createRoutesFromElements(
-
-    //     <Route path='/' element={<Layout/>}>
-    //     <Route path='/' element={<Career/>}/>
-    //     <Route path='/Body' element={<Body/>}/>
-    //     <Route path='/Blog' element={<Blog/>}/>
-    //     <Route path='/Study' element={<Study/>}/>
-    //     <Route path='/Community' element={<Community/>}/>
-    //     <Route path='/Contact' element={<Contact/>}>
-    //     </Route>
-           
-    //     </Route>
+    const router=createBrowserRouter(
+      createRoutesFromElements(
+<>
+        <Route path='/' element={<Layout/>}>
+        <Route path='/' element={<Career/>}/>
+        <Route path='/Body' element={<Body/>}/>
+        <Route path='/Blog' element={<Blog/>}/>
+        <Route path='/Study' element={<Study/>}/>
+        <Route path='/Community' element={<Community/>}/>
+        <Route path='/Contact' element={<Contact/>}/>
+        </Route>
+           <Route path="/Login" element={<Login/>}/>
+           <Route path='Signin' element={<Signin/>}/>
+      
         
                 
-          
-    //   )
+       </>   
+      )
       
-    // )
+    )
   return (
     <>
 
@@ -53,12 +54,11 @@ function App() {
 
       
 
- <Signin/>
+ {/* <Signin/> */}
  
 
 
-
-      {/* <RouterProvider router={router}/> */}
+      <RouterProvider router={router}/>
     </>
   )
 }

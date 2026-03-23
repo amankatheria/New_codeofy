@@ -74,7 +74,7 @@ return (
                 })}
             </div>
             <p className=" text-center text-sm mt-6 capitalize">don't have an account ?
-                <span className="text-blue-600 ml-1 capitalize"> sign up for free</span>
+                <button  className="text-blue-600 ml-1 capitalize"> sign up for free</button>
             </p>
         </div>
     </div>

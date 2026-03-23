@@ -11,6 +11,7 @@ function Layout(){
       <Outlet/>
       <Header/>
       </div>
+      
       </>
     )
 }

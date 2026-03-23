@@ -70,7 +70,7 @@ function Navbar() {
 
           <button 
             
-            
+             onClick={() => navigate("/Signin")}
             className="border border-black px-5 py-2 rounded-lg hover:bg-blue-700 hover:text-white transition"
           >
             Log In
@@ -105,7 +105,7 @@ function Navbar() {
           <div ><Link to="/Contact" className="cursor-pointer">Contact </Link></div>
 
           <button
-            onClick={() => navigate("")}
+            onClick={() => navigate("/Login")}
             className="w-full border border-black py-2 rounded-lg hover:bg-blue-500 hover:text-white transition"
           >
             Log In

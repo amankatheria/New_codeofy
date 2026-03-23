@@ -74,9 +74,6 @@ function Signin(){
 
     </div>
          
-         
-         
-         
          </>
     )
 } 
