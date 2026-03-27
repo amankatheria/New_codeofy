@@ -21,7 +21,7 @@ function Signin(){
 
              <input
                 type="text"
-                placeholder="enter your enail"
+                placeholder="enter your email"
                 className="w-full p-3 border rounded-lg mb-4 capitalize"
             />
          <div className=" relative">

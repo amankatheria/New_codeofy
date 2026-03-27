@@ -9,37 +9,38 @@ import Study from './Components/Study.jsx'
 import Blog from'./Components/Blog.jsx'
 import Login from './Components/Login.jsx'
 import Signin from './Components/Signinpage/Signin.jsx'
+import Service from"./Components/Service.jsx"
 
 
 function App() {
 
-    const router=createBrowserRouter(
-      createRoutesFromElements(
-<>
-        <Route path='/' element={<Layout/>}>
-        <Route path='/' element={<Career/>}/>
-        <Route path='/Body' element={<Body/>}/>
-        <Route path='/Blog' element={<Blog/>}/>
-        <Route path='/Study' element={<Study/>}/>
-        <Route path='/Community' element={<Community/>}/>
-        <Route path='/Contact' element={<Contact/>}/>
-        </Route>
-           <Route path="/Login" element={<Login/>}/>
-           <Route path='Signin' element={<Signin/>}/>
+//     const router=createBrowserRouter(
+//       createRoutesFromElements(
+// <>
+//         <Route path='/' element={<Layout/>}>
+//         <Route path='/' element={<Career/>}/>
+//         <Route path='/Body' element={<Body/>}/>
+//         <Route path='/Blog' element={<Blog/>}/>
+//         <Route path='/Study' element={<Study/>}/>
+//         <Route path='/Community' element={<Community/>}/>
+//         <Route path='/Contact' element={<Contact/>}/>
+//         </Route>
+//            <Route path="/Login" element={<Login/>}/>
+//            <Route path='Signin' element={<Signin/>}/>
       
         
                 
-       </>   
-      )
+//        </>   
+//       )
       
-    )
+//     )
   return (
     <>
 
 
 
 
-      {/* <div className=' h-full w-full overflow-hidden'> */}
+      <div className=' h-full w-full overflow-hidden'>
 
 
         {/* <Body/> */}
@@ -48,9 +49,10 @@ function App() {
         {/* <Community/> */}
         {/* <Studypage/> */}
          {/* <Contactpage/> */}
+      
+      <Service/>
 
-
-      {/* </div> */}
+      </div>
 
       
 
@@ -58,7 +60,7 @@ function App() {
  
 
 
-      <RouterProvider router={router}/>
+      {/* <RouterProvider router={router}/> */}
     </>
   )
 }

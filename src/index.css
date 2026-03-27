@@ -1,1 +1,13 @@
 @import "tailwindcss";
+@keyframes orbit4 {
+  0% {
+    transform: rotate(0deg) translateX(140px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(1440deg) translateX(140px) rotate(-1440deg);
+  }
+}
+
+.orbit-animation {
+  animation: orbit4 4s linear forwards;
+}

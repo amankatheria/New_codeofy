@@ -23,12 +23,12 @@ const jobs = [
   }
 ];
 
-function Positions() {
+function Positions({refProp}) {
   return (
     <section className="bg-gradient-to-br from-blue-80 to-blue-100  py-2 px-1 ">
       {/* <div className="bg-gradient-to-br from-blue-90 to-blue-100  py-2 px-1"> */}
 
-      <div className=" mb-9 py-2 px-5 text-center ">
+      <div  ref={refProp}  className=" mb-9 py-2 px-5 text-center ">
         <h2 className="text-3xl font-bold text-black md:text-left ">
           Open Positions
         </h2>
